@@ -67,9 +67,15 @@ const checkWinner = () => {
         if (pos1Val === "O") {
           winhead.innerText = `${pos1Val} Won!`;
           winMsg.innerText = symbol(pos1Val, "X");
+          boxes.forEach((box) => {
+            box.disabled = true;
+          })
         } else if (pos1Val === "X") {
           winhead.innerText = `${pos1Val} Won!`;
           winMsg.innerText = symbol(pos1Val, "O");
+          boxes.forEach((box) => {
+            box.disabled = true;
+          })
         }
       }
     }
