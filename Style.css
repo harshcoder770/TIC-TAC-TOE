@@ -1,0 +1,407 @@
+*{
+    margin : 0;
+    padding : 0;
+    
+}
+body {
+    background-color : #548587;
+    text-align : center;
+
+}
+.box{
+    font-size: 150px;;
+}
+main {
+    /* text-align: center; */
+    display : flex;
+    justify-content : center ;
+    align-items: center;
+    flex-direction: column;
+
+}
+.container{
+    width : 550px;;
+    height : 500px;
+    display : flex;
+    justify-content : center ;
+    align-items: center;
+    /* background-color: green; */
+
+}
+
+.game {
+    height : 100%;
+    width : 100%;
+    display : flex;
+    flex-wrap : wrap;
+    justify-content : center ;
+    align-items: center;
+    gap  : 2vmin;
+    padding-bottom: 20px;;
+    padding-top: 20px;
+    /* background-color: hotpink; */
+}
+main h1{
+    margin-bottom: 10px;;
+    
+    font-size: 105px;;
+}
+.box {
+    height : 33%;
+    width : 30%;
+    border-radius : 25%;
+    box-shadow : 0 0 1rem rgba(0, 0, 0, 0.3);
+    font-size : 8vmin;
+    color : #b1413e;
+    background-color: #ffffc7;
+}
+
+#reset-btn{
+    padding : 1rem;
+    margin-top: 55px;;
+    font-size : 1.25rem;
+    background-color: #191913;
+    color : #ffff;
+    border-radius : 1rem;
+
+}
+
+.game-end-popup.x-win.open{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+   
+    position : fixed;
+    top: 20%;
+    left: 20%;
+    height : 480px;
+    width : 900px;
+    color: #ffff;
+    border-radius: 50px;
+    /* text-align: center; */
+
+    background-color: #153B50;
+    a{
+        font-size: 120px;;
+        margin-left: -15%;
+    }
+    p{
+        /* margin-right: -30%; */
+        width  :  385px;
+        margin-left: 10%;
+        font-size: 120px;;
+        padding-top: 50px;  ;
+        display: inline-block ;
+    }
+    h4{
+        padding-top: 35px;
+        font-size: 30px;;
+        width : 70%;;
+        padding-left: 15%;;
+    }
+    .cross-btn{
+        position: absolute;
+        top: 5%;
+        right : 5%;
+        font-size: 35px;
+        cursor: pointer;
+    }
+}
+.game-end-popup.o-win.open{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+   
+    position : fixed;
+    top: 20%;
+    left: 20%;
+    height : 480px;
+    width : 900px;
+    color: #ffff;
+    border-radius: 50px;
+    /* text-align: center; */
+
+    background-color: #153B50;
+    a{
+        font-size: 120px;;
+        margin-left: -15%;
+    }
+    p{
+        /* margin-right: -30%; */
+        width  :  385px;
+        margin-left: 10%;
+        font-size: 120px;;
+        padding-top: 50px;  ;
+        display: inline-block ;
+    }
+    h4{
+        padding-top: 35px;
+        font-size: 30px;;
+        width : 70%;;
+        padding-left: 15%;;
+    }
+    .cross-btn{
+        position: absolute;
+        top: 5%;
+        right : 5%;
+        font-size: 35px;
+        cursor: pointer;
+    }
+}
+.game-end-popup.tie.open{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1);
+    position : fixed;
+    top: 20%;
+    left: 20%;
+    height : 480px;
+    width : 900px;
+    color: #ffff;
+    border-radius: 50px;
+    /* text-align: center; */
+
+    background-color: #153B50;
+    a{
+        font-size: 120px;;
+        margin-left: -15%;
+    }
+    p{
+        /* margin-right: -30%; */
+        width  :  385px;
+        margin-left: 10%;
+        font-size: 120px;;
+        padding-top: 50px;  ;
+        display: inline-block ;
+    }
+    h4{
+        padding-top: 35px;
+        font-size: 30px;;
+        width : 70%;;
+        padding-left: 15%;;
+    }
+    .cross-btn{
+        position: absolute;
+        top: 5%;
+        right : 5%;
+        font-size: 35px;
+        cursor: pointer;
+    }
+}
+
+.game-end-popup{
+    transform: scale(0);
+    transition: all 0.3s ease-in-out;
+    height : 20px;
+
+}
+.new-game{
+    margin-top: 40px;;
+    padding : 20px;
+    background-color: #F8312F;
+    width : 25vw;
+    font-size: 18px;;
+    height: 25px;;
+    margin-left: 30%;
+    border-radius: 20px;;
+    border: 4px solid #F8312F;
+    transition: all 0.3s ease-in-out;  
+    cursor: pointer; 
+}
+.new-game:hover{
+    background-color: transparent;
+}
+
+
+
+
+
+@media only screen and (max-width: 600px) {
+    main h1{
+    
+        font-size: 35px;;
+        margin-block: 50px;
+    }
+    .container{
+        width : 300px;;
+        height : 300px;
+        display : flex;
+        justify-content : center ;
+        align-items: center;
+        /* background-color: green; */
+    
+    }
+    .game {
+        height : 100%;
+        width : 100%;
+        display : flex;
+        flex-wrap : wrap;
+        justify-content : center ;
+        align-items: center;
+        gap  : 2.5vmin;
+        padding-bottom: 20px;;
+        padding-top: 20px;
+        /* background-color: hotpink; */
+    }
+    #reset-btn{
+        padding : 1rem;
+        margin-top: 65px;;
+        font-size : 1.25rem;
+        background-color: #191913;
+        color : #ffff;
+        border-radius : 1rem;
+    
+    }
+ 
+
+    .game-end-popup.o-win.open{
+        margin-top: 60px;;
+        transition: all 0.3s ease-in-out;
+        transform: scale(1);
+        /* position : fixed; */
+        margin-left: -50px;;
+        height : 300px;
+        width : 300px;
+        text-align: center;
+        color: #ffff;
+        border-radius: 50px;
+        /* text-align: center; */
+    
+        background-color: #153B50;
+        a{
+            margin-top: 35px;;
+            font-size: 50px;;
+            margin-left: -15%;
+            display: inline-block;
+        }
+        p{
+            /* margin-right: -30%; */
+            margin-top: 35px;;
+            
+            margin-left: 10%;
+            font-size: 30px;;
+            padding-top: 50px;  ;
+            display: inline ;
+        }
+        h4{
+            padding-top: 35px;
+            font-size: 15px;;
+            width : 70%;;
+            padding-left: 15%;;
+        }
+        .cross-btn{
+            position: absolute;
+            top: 10%;
+            right : 10%;
+            font-size: 25px;
+            cursor: pointer;
+        }
+    }
+    .game-end-popup.tie.open{
+        margin-top: 60px;;
+        transition: all 0.3s ease-in-out;
+        transform: scale(1);
+        /* position : fixed; */
+        margin-left: -50px;;
+        height : 300px;
+        width : 300px;
+        text-align: center;
+        color: #ffff;
+        border-radius: 50px;
+        /* text-align: center; */
+    
+        background-color: #153B50;
+        a{
+            margin-top: 35px;;
+            font-size: 50px;;
+            margin-left: -15%;
+            display: inline-block;
+        }
+        p{
+            /* margin-right: -30%; */
+            margin-top: 35px;;
+            
+            margin-left: 10%;
+            font-size: 30px;;
+            padding-top: 50px;  ;
+            display: inline ;
+        }
+        h4{
+            padding-top: 35px;
+            font-size: 15px;;
+            width : 70%;;
+            padding-left: 15%;;
+        }
+        .cross-btn{
+            position: absolute;
+            top: 10%;
+            right : 10%;
+            font-size: 25px;
+            cursor: pointer;
+        }
+    }
+    .game-end-popup.x-win.open{
+        margin-top: 60px;;
+        transition: all 0.3s ease-in-out;
+        transform: scale(1);
+        /* position : fixed; */
+        margin-left: -50px;;
+        height : 300px;
+        width : 300px;
+        text-align: center;
+        color: #ffff;
+        border-radius: 50px;
+        /* text-align: center; */
+    
+        background-color: #153B50;
+        a{
+            margin-top: 35px;;
+            font-size: 50px;;
+            margin-left: -15%;
+            display: inline-block;
+        }
+        p{
+            /* margin-right: -30%; */
+            margin-top: 35px;;
+            
+            margin-left: 10%;
+            font-size: 30px;;
+            padding-top: 50px;  ;
+            display: inline ;
+        }
+        h4{
+            padding-top: 35px;
+            font-size: 15px;;
+            width : 70%;;
+            padding-left: 15%;;
+        }
+        .cross-btn{
+            position: absolute;
+            top: 10%;
+            right : 10%;
+            font-size: 25px;
+            cursor: pointer;
+        }
+    }
+    .new-game{
+        margin-top: 30px;;
+        padding : 20px;
+        background-color: #F8312F;
+        width : 30vw;
+        font-size: 18px;;
+        height: 2vh;;
+        margin-left: 22%;
+        border-radius: 20px;;
+        border: 4px solid #F8312F;
+        transition: all 0.3s ease-in-out;  
+        cursor: pointer; 
+       display: flex;
+       align-items: center;
+       justify-content: center;
+    }
+    .box{
+        font-size: 35px;
+    }
+    
+    
+    
+}
+
+    
