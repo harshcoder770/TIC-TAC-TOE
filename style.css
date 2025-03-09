@@ -66,89 +66,10 @@ main h1{
 
 }
 
-.game-end-popup.x-win.open{
+.game-end-popup.open{
     transition: all 0.3s ease-in-out;
     transform: scale(1);
    
-    position : fixed;
-    top: 20%;
-    left: 20%;
-    height : 480px;
-    width : 900px;
-    color: #ffff;
-    border-radius: 50px;
-    /* text-align: center; */
-
-    background-color: #153B50;
-    a{
-        font-size: 120px;;
-        margin-left: -15%;
-    }
-    p{
-        /* margin-right: -30%; */
-        width  :  385px;
-        margin-left: 10%;
-        font-size: 120px;;
-        padding-top: 50px;  ;
-        display: inline-block ;
-    }
-    h4{
-        padding-top: 35px;
-        font-size: 30px;;
-        width : 70%;;
-        padding-left: 15%;;
-    }
-    .cross-btn{
-        position: absolute;
-        top: 5%;
-        right : 5%;
-        font-size: 35px;
-        cursor: pointer;
-    }
-}
-.game-end-popup.o-win.open{
-    transition: all 0.3s ease-in-out;
-    transform: scale(1);
-   
-    position : fixed;
-    top: 20%;
-    left: 20%;
-    height : 480px;
-    width : 900px;
-    color: #ffff;
-    border-radius: 50px;
-    /* text-align: center; */
-
-    background-color: #153B50;
-    a{
-        font-size: 120px;;
-        margin-left: -15%;
-    }
-    p{
-        /* margin-right: -30%; */
-        width  :  385px;
-        margin-left: 10%;
-        font-size: 120px;;
-        padding-top: 50px;  ;
-        display: inline-block ;
-    }
-    h4{
-        padding-top: 35px;
-        font-size: 30px;;
-        width : 70%;;
-        padding-left: 15%;;
-    }
-    .cross-btn{
-        position: absolute;
-        top: 5%;
-        right : 5%;
-        font-size: 35px;
-        cursor: pointer;
-    }
-}
-.game-end-popup.tie.open{
-    transition: all 0.3s ease-in-out;
-    transform: scale(1);
     position : fixed;
     top: 20%;
     left: 20%;
@@ -251,7 +172,7 @@ main h1{
     }
  
 
-    .game-end-popup.o-win.open{
+    .game-end-popup.open{
         margin-top: 0px;;
         transition: all 0.3s ease-in-out;
         transform: scale(1);
@@ -266,14 +187,14 @@ main h1{
     
         background-color: #153B50;
         a{
-            margin-top: 35px;;
+            margin-top: 24px;;
             font-size: 50px;;
             margin-left: -15%;
             display: inline-block;
         }
         p{
             /* margin-right: -30%; */
-            margin-top: 35px;;
+            margin-top: 24px;;
             
             margin-left: 10%;
             font-size: 30px;;
@@ -294,92 +215,7 @@ main h1{
             cursor: pointer;
         }
     }
-    .game-end-popup.tie.open{
-        margin-top: 0px;;
-        transition: all 0.3s ease-in-out;
-        transform: scale(1);
-        /* position : fixed; */
-        margin-left: -50px;;
-        height : 300px;
-        width : 300px;
-        text-align: center;
-        color: #ffff;
-        border-radius: 50px;
-        /* text-align: center; */
     
-        background-color: #153B50;
-        a{
-            margin-top: 35px;;
-            font-size: 50px;;
-            margin-left: -15%;
-            display: inline-block;
-        }
-        p{
-            /* margin-right: -30%; */
-            margin-top: 35px;;
-            
-            margin-left: 10%;
-            font-size: 30px;;
-            padding-top: 50px;  ;
-            display: inline ;
-        }
-        h4{
-            padding-top: 35px;
-            font-size: 15px;;
-            width : 70%;;
-            padding-left: 15%;;
-        }
-        .cross-btn{
-            position: absolute;
-            top: 10%;
-            right : 10%;
-            font-size: 25px;
-            cursor: pointer;
-        }
-    }
-    .game-end-popup.x-win.open{
-        margin-top: 0px;;
-        transition: all 0.3s ease-in-out;
-        transform: scale(1);
-        /* position : fixed; */
-        margin-left: -50px;;
-        height : 300px;
-        width : 300px;
-        text-align: center;
-        color: #ffff;
-        border-radius: 50px;
-        /* text-align: center; */
-    
-        background-color: #153B50;
-        a{
-            margin-top: 35px;;
-            font-size: 50px;;
-            margin-left: -15%;
-            display: inline-block;
-        }
-        p{
-            /* margin-right: -30%; */
-            margin-top: 35px;;
-            
-            margin-left: 10%;
-            font-size: 30px;;
-            padding-top: 50px;  ;
-            display: inline ;
-        }
-        h4{
-            padding-top: 35px;
-            font-size: 15px;;
-            width : 70%;;
-            padding-left: 15%;;
-        }
-        .cross-btn{
-            position: absolute;
-            top: 10%;
-            right : 10%;
-            font-size: 25px;
-            cursor: pointer;
-        }
-    }
     .new-game{
         margin-top: 30px;;
         padding : 20px;
